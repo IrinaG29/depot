@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Product.delete_all
 
-Product.create!(title: 'Carousel horse',
+Product.create!(title: 'Horse',
   description:
     %{<p>
       <em>Handmade and hand embroidered drawstring bag.</em>

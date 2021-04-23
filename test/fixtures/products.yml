@@ -1,13 +1,23 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
+  title: MyString1
   description: MyText
-  image_url: MyString
+  image_url: lorem.png
   price: 9.99
 
 two:
-  title: MyString
+  title: MyString2
   description: MyText
-  image_url: MyString
+  image_url: lorem.png
   price: 9.99
+
+horse:
+  title: Horse
+  description: Handmade and hand embroidered drawstring bag.
+    A drawstring bag made of cotton and hand embroidered with cotton floss.
+    A red gros grain ribbon has been used to add extra flair.
+    The bag measures approximately 28cm (11in)H and 25cm (9.8in)W.
+    It has a boxed bottom and is lined with the same cotton fabric.
+  price: 20.00
+  image_url: horse.jpg
