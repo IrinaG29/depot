@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Prerequisites
 
-Things you may want to cover:
+**For running the app:**
+Ruby version 2.7.0
+SQLite 3
 
-* Ruby version
+**Setting up the app in development**
+Run bundle install to install the gem dependencies
+Run yarn to install node dependencies
+Run bin/rails db:setup to set up the database development and test schemas, and seed with test data
+Run bundle exec rails server to launch the app on http://localhost:3000
 
-* System dependencies
+**Configuration**
+bin/rails bundle
 
-* Configuration
+**Database creation**
+bin/rails generate scaffold Product title:string description:text image_url:string price:decimal
 
-* Database creation
+**Database initialisation**
+bin/rails db:migrate
+bin/rails dbconsole - to go directly into the database
 
-* Database initialization
-
-* How to run the test suite
+**To run the test suite:**
+bin/rails test
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...

@@ -3,21 +3,19 @@
 one:
   title: MyString1
   description: MyText
-  image_url: lorem.png
+  image_url: lorem.jpg
   price: 9.99
 
 two:
   title: MyString2
   description: MyText
-  image_url: lorem.png
+  image_url: lorem.jpg
   price: 9.99
 
-horse:
-  title: Horse
-  description: Handmade and hand embroidered drawstring bag.
-    A drawstring bag made of cotton and hand embroidered with cotton floss.
-    A red gros grain ribbon has been used to add extra flair.
-    The bag measures approximately 28cm (11in)H and 25cm (9.8in)W.
-    It has a boxed bottom and is lined with the same cotton fabric.
-  price: 20.00
-  image_url: horse.jpg
+ruby:
+  title: Programming Ruby 1.9
+  description:
+    Ruby is the fastest growing and the most exciting dynamic language out there.
+    If you need to get working programs delivered fast, you should add Ruby to your toolbox.
+  price: 49.50
+  image_url: ruby.jpg
